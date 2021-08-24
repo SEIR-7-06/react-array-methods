@@ -4,29 +4,29 @@ import './App.css';
 
 class App extends React.Component {
   // Render a list of city names
-  // renderCities() {
-  //   const cityNames = cityData.map((city, idx) => {
-  //     return (
-  //       <h2 key={idx}>{city.name}</h2>
-  //     );
-  //   });
-
-  //   return cityNames;
-  // }
-
-  // Render a list of each of the cities name and population
   renderCities() {
     const cityNames = cityData.map((city, idx) => {
       return (
-        <li key={idx}>
-          <h2>{city.name}</h2>
-          <p>Population: {city.population}</p>
-        </li>
+        <h2 key={idx}>{city.name}</h2>
       );
     });
 
     return cityNames;
   }
+
+  // Render a list of each of the cities name and population
+//   renderCities() {
+//     const cityNames = cityData.map((city, idx) => {
+//       return (
+//         <li key={idx}>
+//           <h2>{city.name}</h2>
+//           <p>Population: {city.population}</p>
+//         </li>
+//       );
+//     });
+
+//     return cityNames;
+//   }
 
   // Activity
   // Using the map method have renderCities return an array of JSX showing
@@ -68,21 +68,21 @@ class App extends React.Component {
   // Activity:
   // Find the city with the name of Denver and render it to the page
   // Render the name, state, and the population.
-  renderCities() {
-    const denver = cityData.find((city) => {
-      return city.name === 'Denver';
-    });
+//   renderCities() {
+//     const denver = cityData.find((city) => {
+//       return city.name === 'Denver';
+//     });
 
-    const denverJSX = (
-      <div>
-        <h2>{denver.name}</h2>
-        <p>{denver.state}</p>
-        <p>{denver.population}</p>
-      </div>
-    )
+//     const denverJSX = (
+//       <div>
+//         <h2>{denver.name}</h2>
+//         <p>{denver.state}</p>
+//         <p>{denver.population}</p>
+//       </div>
+//     )
 
-    return denverJSX;
-  }
+//     return denverJSX;
+//   }
 
   render() {
     return (
