@@ -49,8 +49,8 @@ class App extends React.Component {
 
   // Show the coastal towns in the list
   // Steps
-  // 1. Get an array of the coastal towns
-  // 2. Take the filtered array and convert it to an array of JSX
+  // 1. Get an array of the coastal towns (filter)
+  // 2. Take the filtered array and convert it to an array of JSX (map)
   // renderCities() {
   //   // Filtering through cityData to get an array of just the coastal towns
   //   const coastalTowns = cityData.filter((city) => {
