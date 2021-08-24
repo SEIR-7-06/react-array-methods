@@ -1,0 +1,11 @@
+Map - Take in an array and returns a brand new array of the same length
+// input => ['couch', 'desk', 'office chair']
+// output => [<li>couch</li>, <li>desk</li>, <li>office chair</li>]
+
+Filter - Take in an array and return a new array filtered for some condition
+// input => ['couch', 'desk', 'office chair']
+// output => ['couch', 'desk']
+
+Find - Take in an array and return a single item in the array based on some condition
+// input => ['couch', 'desk', 'office chair']
+// output => 'desk'
