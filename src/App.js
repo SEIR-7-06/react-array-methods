@@ -84,8 +84,6 @@ class App extends React.Component {
     return denverJSX;
   }
 
-  // [<li>San Francisco</li>, <li>Phoenix</li>]
-
   render() {
     return (
       <div className="App">
